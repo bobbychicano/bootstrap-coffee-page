@@ -1,0 +1,96 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #EFEBE9;
+}
+
+.container,
+.container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  background: #8D6E63;
+  display: flex;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.3);
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 25%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+  color: white;
+}
+
+.description button {
+  background: white;
+  color: black;
+  font-weight: bold;
+}
+
+.description button:hover {
+  background: #8D6E63;
+  color: white;
+  font-weight: bold;
+}
+
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+
+.feature-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.features img {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+
+.three .col-lg-4,
+.three .col-md-4,
+.three .col-sm-12 {
+  flex: 30%;
+  max-width: 33%;
+  margin: 0 15px;
+  border: 1px solid #3E2723;
+}
+
+.features .btn {
+  background-color: #8D6E63;
+  border: 1px solid white;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.features .btn:hover {
+  background-color: #5D4037;
+  border: 1px solid #8D6E63;
+  color: #fff;
+}
