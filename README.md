@@ -2,7 +2,7 @@
 
 The purpose of this project was to create a mock-up landing page with Bootstrap and become more comfortable with the technology.
 
-You can find the live page hosted here: 
+You can find the live page hosted here: https://bobbychicano.github.io/bootstrap-coffee-page/
 
 ---
 
