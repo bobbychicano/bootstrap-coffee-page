@@ -19,6 +19,10 @@ body {
   color: white;
 }
 
+.navbar-toggler {
+  border: 1px solid white;
+}
+
 .navbar-brand {
   margin-left: 10%;
 }
@@ -112,4 +116,33 @@ header img {
 .footer-copyright {
   color: #fff;
   padding: 40px 0 20px 0;
+}
+
+@media (max-width: 768px) {
+
+  .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    transform: none;
+    text-align: center;
+  }
+
+  .description h1 {
+    font-size: 2em;
+  }
+
+  .description p {
+    font-size: 1.2rem;
+  }
+
+  .features {
+    margin: 0;
+  }
+
+  .navbar-nav {
+    margin-left: 11%;
+  }
+
 }
